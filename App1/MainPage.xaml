@@ -15,13 +15,45 @@
         </Grid.RowDefinitions>
         <RelativePanel Grid.Row= "0">
             <Button Name ="HamBurgerButton"
+                    Click="HamBurgerButton_Click"
                     FontFamily="Segoe MDL2 Assets"
-                    Content="&#xE700;" />
+                    Content="&#xE700;"
+                    Height="45"
+                    Width="45"
+                    />
             <Button Name ="BackButton"
+                    Click="BackButton_Click"
                     RelativePanel.RightOf="HamBurgerButton"
                     FontFamily="Segoe MDL2 Assets"
-                    Content="&#xE0A6;"/>
+                    Content="&#xE0A6;"
+                    Height="45"
+                    Width="45"
+                    />
         </RelativePanel>
+        <SplitView  Grid.Row="1" Name ="ContentSplitView"
+                    DisplayMode="CompactOverlay"
+                    CompactPaneLength="45"
+                    OpenPaneLength="200"
+                    >
+            <SplitView.Pane>
+                <ListView>
+                    
+                </ListView>
+
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row = "0" Name = "CategoryTextBlock" Text="All Sounds" FontSize="24" />
+                    <GridView>
+                        
+                    </GridView>
+                </Grid>
+            </SplitView.Content>
+        </SplitView>
 
     </Grid>
 </Page>

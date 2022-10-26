@@ -26,5 +26,15 @@ namespace App1
         {
             this.InitializeComponent();
         }
+
+        private void HamBurgerButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

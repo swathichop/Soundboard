@@ -122,6 +122,8 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\SoundManager.cs" />
+    <Compile Include="Model\Sound.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +132,14 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Audio\Animals\Cat.mp3" />
+    <Content Include="Assets\Audio\Animals\Dog.mp3" />
+    <Content Include="Assets\Audio\Cartoons\laugh.mp3" />
+    <Content Include="Assets\Audio\Cartoons\surprise.mp3" />
+    <Content Include="Assets\Audio\Sportscar\Sports CarGear.mp3" />
+    <Content Include="Assets\Audio\Sportscar\Sportscar slowrev.mp3" />
+    <Content Include="Assets\Audio\Warnings\alarm.mp3" />
+    <Content Include="Assets\Audio\Warnings\beep.mp3" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -153,6 +163,10 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Icons\" />
+    <Folder Include="Assets\Images\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

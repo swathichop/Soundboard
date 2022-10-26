@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JjJi7PGpki84JGPNjigO+KOtdKob5MMqMY5gnULtqkjBMvfZx+g16uTmBv2qOBfxlR+QgYRHSteX43jF71HnYQ==",
+  "dgSpecHash": "VZSsVyIpcvK4DtJTu1nOnuCvkxcAsJVqw0gsfeYjOugxinzk3Mr9lmpqDN5tiIzRap8qUAMrdLlAn/Om4DtSPw==",
   "success": true,
-  "projectFilePath": "C:\\Pivot\\Projects\\Soundboard\\App1\\App1.csproj",
+  "projectFilePath": "C:\\Pivot\\Projects\\Soundboard\\App1\\Soundboard.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",

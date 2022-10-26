@@ -1,0 +1,1 @@
+C:\Pivot\Projects\Soundboard\App1\Soundboard.csproj;x86

@@ -10262,9 +10262,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pivot\\Projects\\Soundboard\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Pivot\\Projects\\Soundboard\\App1\\Soundboard.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Pivot\\Projects\\Soundboard\\App1\\App1.csproj",
+      "projectPath": "C:\\Pivot\\Projects\\Soundboard\\App1\\Soundboard.csproj",
       "packagesPath": "C:\\Users\\v-swchop\\.nuget\\packages\\",
       "outputPath": "C:\\Pivot\\Projects\\Soundboard\\App1\\obj\\",
       "projectStyle": "PackageReference",
